@@ -1,0 +1,437 @@
+.left {
+  margin-right: 206px !important;
+}
+.custom-icon {
+  height: 10px;
+  width: 10px;
+}
+.right {
+  margin-left: 206px !important;
+}
+.ml30 {
+  margin-left: 30px;
+}
+
+.yellowFont {
+  font-weight: 1000;
+  color: #ffd500;
+  font-family: Montserrat-Bold;
+}
+.caluWap {
+  font-family: Montserrat-Medium;
+  width: 471px;
+  height: 620px;
+  padding: 0 0 0px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px 20px 8px 8px;
+}
+
+.caluWap .header {
+  width: 352px;
+  width: 471px;
+  height: 128px;
+  background-image: linear-gradient(270deg, #0c62ff 0%, #1fa0e8 100%);
+  border-radius: 20px;
+}
+
+.caluWap .header h1 {
+  margin: 20px auto 8px auto;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-family: Montserrat-Medium;
+  font-size: 25px;
+}
+.caluWap .header .lightBlue {
+  font-family: Montserrat-Bold;
+  color: rgba(136, 224, 255, 1);
+}
+.caluWap .header h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.caluWap .tabsWrap {
+  border-radius: 8px;
+  background: #fff;
+  margin-top: -22px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.caluWap .tabsCenter {
+  justify-content: center !important;
+}
+.caluWap .tabs {
+  margin: 0 auto;
+  width: 367px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.caluWap .tabs .tab {
+  display: flex;
+  height: 100%;
+  width: 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out; /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-out; /* Safari 和 Chrome */
+  -o-transition: all 0.3s ease-out; /* Opera */
+}
+.caluWap .tabs .hover {
+  cursor: pointer;
+}
+.caluWap .tabs .supplierIcon {
+  width: 64px;
+  height: 54px;
+  margin-top: 40px;
+}
+.caluWap .tabs .receiveIcon {
+  width: 64px;
+  height: 54px;
+}
+.caluWap .tabs img {
+  margin: 40px 0 10px 0;
+}
+.caluWap .tabs span {
+  text-align: center;
+}
+.caluWap .tabs .whitefont {
+  color: #fff;
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.caluWap .tabs .grayfont {
+  color: rgba(160, 160, 160, 1);
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.caluWap .tabs .borderBlue {
+  height: 5px;
+  width: 100px;
+  background: transparent;
+  margin-top: 8px;
+}
+
+.caluWap .bluefont {
+  color: rgba(0, 164, 255, 1) !important;
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 25px;
+}
+.caluWap .borderLine {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.caluWap .btn {
+  font-family: Montserrat-Bold !important;
+  width: 174px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 164, 255, 1);
+  cursor: pointer;
+  font-size: 13px;
+  color: #fff;
+  transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out; /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-out; /* Safari 和 Chrome */
+  -o-transition: all 0.3s ease-out; /* Opera */
+  font-weight: bolder;
+  border-radius: 30px;
+}
+.caluWap .btn a {
+  color: #fff;
+}
+.caluWap .wbtn {
+  background-color: #fff !important;
+  border: 3px solid rgba(0, 164, 255, 1) !important;
+  color: rgba(0, 164, 255, 1);
+}
+
+.caluWap .wbtn a {
+  color: rgba(0, 164, 255, 1);
+}
+
+.exchangeRateShow {
+  height: 100px;
+  width: 340px;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.exchangeRateShow .row {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.exchangeRateShow .row .leftTxt {
+  min-width: 80px;
+  font-family: Montserrat-Medium;
+  font-size: 14px;
+  color: rgba(46, 67, 105, 0.85);
+  margin-left: 16px;
+}
+.exchangeRateShow .row .time {
+  color: rgba(0, 164, 255, 1);
+  margin-left: 8px;
+  width: 28px;
+  text-align: right;
+}
+.exchangeRateShow .row .times {
+  color: rgba(0, 164, 255, 1);
+}
+.exchangeRateShow .row span {
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  color: rgba(46, 67, 105, 0.85);
+}
+.rowlast {
+  margin-top: -12px !important;
+}
+
+.exchangeRateShow .row img {
+  width: 20px;
+  height: 20px;
+  /*   margin-left: -10px; */
+}
+
+.caluWap
+  .theme--light.v-text-field--outline:not(.v-input--is-focused):not(.v-input--has-state)
+  > .v-input__control
+  > .v-input__slot:hover {
+  border: 1px solid rgba(46, 67, 105, 0.16);
+}
+.caluWap .el-select > .el-input {
+  width: 100px;
+}
+.caluWap .v-input .v-label {
+  /*     margin-top: -5px; */
+  color: rgba(46, 67, 105, 0.45) !important;
+  padding-left: 8px;
+}
+.caluWap .v-text-field .v-label--active {
+  padding-left: 0px !important;
+  margin-left: -4px;
+  margin-top: 8px;
+}
+.caluWap .bottomRate .v-label--active {
+  margin-left: -16px !important;
+}
+.caluWap .v-input input {
+  max-height: 48px;
+  padding-left: 12px;
+  padding-top: 14px;
+  margin-bottom: -10px;
+  color: rgba(46, 67, 105, 0.85) !important;
+}
+.caluWap .v-input {
+  max-height: 48px !important;
+  height: 48px !important;
+}
+.caluWap .el-input input {
+  background: rgba(46, 67, 105, 0.05);
+  border: none;
+  height: 40px;
+  margin-top: 3px;
+  margin-left: -10px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  max-height: 40px;
+}
+.caluWap .el-input__suffix {
+  top: 10px;
+  right: 10px;
+}
+.blueBg .el-input input {
+  height: 40px !important;
+  margin-top: 4px !important;
+  max-height: 40px !important;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.caluWap .el-select {
+  margin-right: -8px;
+}
+.caluWap .v-input__append-inner {
+  margin-top: 0 !important;
+}
+.caluWap .v-text-field.v-text-field--enclosed .v-text-field__details,
+.v-text-field.v-text-field--enclosed > .v-input__control > .v-input__slot {
+  padding: 0 0 0 12px;
+}
+
+.caluWap .v-text-field {
+  padding-top: 0;
+}
+
+.el-input-group {
+  width: 340px;
+  margin-bottom: 12px;
+}
+
+#step3Inpt .el-input-groupheight {
+  height: 60px;
+}
+#step3Inpt .el-input-group--append .el-input__inner,
+.el-input-group__prepend {
+  height: 60px;
+  color: rgba(0, 164, 255, 1);
+}
+
+#step3Inpt .el-input-group__append {
+  width: 100px;
+  border: none !important;
+  color: #fff !important;
+  background: linear-gradient(
+    180deg,
+    rgba(104, 176, 225, 1),
+    rgba(41, 141, 219, 1)
+  );
+}
+
+.theme--light.v-text-field:not(.v-input--has-state):hover
+  > .v-input__control
+  > .v-input__slot:before,
+.v-text-field > .v-input__control > .v-input__slot:after,
+.v-text-field > .v-input__control > .v-input__slot:before {
+  border: none;
+}
+
+.v-text-field > .v-input__control > .v-input__slot {
+  border-radius: 5px;
+}
+.el-select-dropdown.el-popper {
+  background-color: #f5f5f7;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.v-text-field.v-input__append-inner,
+.v-text-field.v-input__prepend-inner {
+  margin-top: 0px;
+}
+.v-input input {
+  max-height: 28px;
+}
+.el-select {
+  background-color: #f5f5f7;
+  border-radius: 16px;
+  width: 80px;
+  text-align-last: center;
+  margin: 10px;
+}
+.v-text-field > .v-input__control > .v-input__slot > .v-text-field__slot {
+  padding-left: 21px;
+}
+.el-input.el-input--suffix::before {
+  content: "";
+  right: 45px;
+  top: 7px;
+  position: absolute;
+  display: inline-block;
+  width: 16px; /* Set the width of the image */
+  height: 16px; /* Set the height of the image */
+  background-size: cover;
+  margin-right: 8px; /* Adjust spacing between image and text */
+}
+
+.el-input.el-input--suffix {
+  padding-left: 20px;
+  position: relative;
+}
+
+.custom-icon {
+  position: absolute;
+  height: 100%;
+  width: 15px;
+  left: 10px;
+}
+
+.el-select-dropdown__list {
+  list-style-type: none; /* Hide the default bullet point */
+}
+
+.el-scrollbar__view.el-select-dropdown__list {
+  padding-left: 0;
+}
+
+.el-select-dropdown__list .el-select-dropdown__item::before {
+  content: "";
+
+  display: inline-block;
+  width: 16px; /* Set the width of the image */
+  height: 16px; /* Set the height of the image */
+  background-size: cover;
+  margin-right: 8px; /* Adjust spacing between image and text */
+}
+
+.el-select-dropdown__item.AUD::before,
+.el-input.el-input--suffix.AUD::before {
+  background-image: url(https://wise.com/web-art/assets/flags/aud.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.CAD::before,
+.el-input.el-input--suffix.CAD::before {
+  background-image: url(https://wise.com/web-art/assets/flags/cad.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.EUR::before,
+.el-input.el-input--suffix.EUR::before {
+  background-image: url(https://wise.com/web-art/assets/flags/eur.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.JPY::before,
+.el-input.el-input--suffix.JPY::before {
+  background-image: url(https://wise.com/web-art/assets/flags/jpy.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.MXN::before,
+.el-input.el-input--suffix.MXN::before {
+  background-image: url(https://wise.com/web-art/assets/flags/mxn.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.SGD::before,
+.el-input.el-input--suffix.SGD::before {
+  background-image: url(https://wise.com/web-art/assets/flags/sgd.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.GBP::before,
+.el-input.el-input--suffix.GBP::before {
+  background-image: url(https://wise.com/web-art/assets/flags/gbp.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.USD::before,
+.el-input.el-input--suffix.USD::before {
+  background-image: url(https://wise.com/web-art/assets/flags/usd.svg); /* Replace with your image URL */
+}
+.el-select-dropdown__item.INR::before,
+.el-input.el-input--suffix.INR::before {
+  background-image: url(https://wise.com/web-art/assets/flags/inr.svg); /* Replace with your image URL */
+}
